@@ -8,12 +8,12 @@
 
      auto cart = new ShoppingCart();
      1. The "Heap" - Dangerous
-     1. This is called Dynamic Allocation
-     2. Manual Cleanup
-     3. Slower
-     4. Use Case : You only use "new" if the object needs to live a very
+     2. This is called Dynamic Allocation
+     3. Manual Cleanup
+     4. Slower
+     5. Use Case : You only use "new" if the object needs to live a very
         long time or if the object is so massive it won't fit on the stack
-     5. You have to use (->) in this
+     6. You have to use (->) in this
 */
 
 /*
