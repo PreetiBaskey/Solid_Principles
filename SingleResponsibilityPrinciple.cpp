@@ -139,12 +139,16 @@ public:
 };
 
 int main() {
-    auto cart = make_unique<ShoppingCart>(); // owner
+    // owner
+    // cart is now a pointer, you use -> (the arrow) to call its methods: cart->addProduct()
+    auto cart = make_unique<ShoppingCart>();
 
     cart->addProduct(make_unique<Product>("Laptop", 1500));
     cart->addProduct(make_unique<Product>("Mobile", 500));
 
-    ShoppingCartPrinter printer(*cart); // pass reference
+    // pass reference
+    // Since cart is a pointer (an address), but your Printer constructor expects a Reference (&), you must "dereference" it using *
+    ShoppingCartPrinter printer(*cart);
     printer.printInvoice();
 
     ShoppingCartStorage db(*cart); // pass reference
