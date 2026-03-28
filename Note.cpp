@@ -7,6 +7,7 @@
      4. You have to use (.) in this
 
      auto cart = new ShoppingCart();
+     1. The "Heap" - Dangerous
      1. This is called Dynamic Allocation
      2. Manual Cleanup
      3. Slower
