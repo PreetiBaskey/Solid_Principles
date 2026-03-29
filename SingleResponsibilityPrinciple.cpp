@@ -4,6 +4,7 @@
     2. A class should do only one thing
 */
 
+
 //Single Responsibility Principle - SRP
 //SRP violated code
 
