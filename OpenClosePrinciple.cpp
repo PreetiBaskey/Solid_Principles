@@ -3,6 +3,7 @@
     A class should be open for extension but close for modification
 */
 
+
 //Open Close Principle - OCP
 //OCP violated code
 
