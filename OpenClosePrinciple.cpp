@@ -3,7 +3,8 @@
     A class should be open for extension but close for modification
 */
 
-// Followed Code OCP - Open Close Principle
+//Open Close Principle - OCP
+//OCP violated code
 
 #include<iostream>
 #include<vector>
